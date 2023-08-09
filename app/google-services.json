@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1066464342433",
+    "project_id": "login-process-1586e",
+    "storage_bucket": "login-process-1586e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066464342433:android:63ef81d790befc5ac95be0",
+        "android_client_info": {
+          "package_name": "com.ziaahmedf17.loginprocess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066464342433-rvogrutfhhilqq7vkv0gmt98664po4jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD303gnlAX3NiP3QeF1AL7qxnowL_Rdl9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066464342433-rvogrutfhhilqq7vkv0gmt98664po4jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
