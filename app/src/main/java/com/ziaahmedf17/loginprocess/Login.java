@@ -22,7 +22,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class Login extends AppCompatActivity {
 
     private EditText email_txt, password_txt;
-    private Button register_btn, login_btn;
+    private Button registerBtn, loginBtn;
     private FirebaseAuth mAuth;
 
     @Override
@@ -38,19 +38,19 @@ public class Login extends AppCompatActivity {
         FirebaseDatabase.getInstance().setPersistenceEnabled(true);
         email_txt = (EditText) findViewById(R.id.email_txt);
         password_txt = (EditText) findViewById(R.id.password_txt);
-        register_btn = (Button) findViewById(R.id.register_btn);
-        login_btn = (Button) findViewById(R.id.login_btn);
+        registerBtn = (Button) findViewById(R.id.register_btn);
+        loginBtn = (Button) findViewById(R.id.login_btn);
 
         mAuth = FirebaseAuth.getInstance();
 
-        register_btn.setOnClickListener(new View.OnClickListener() {
+        registerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Login.this, Register.class));
                 finish();
             }
         });
-        login_btn.setOnClickListener(new View.OnClickListener() {
+        loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (!email_txt.getText().toString().isEmpty() ||
